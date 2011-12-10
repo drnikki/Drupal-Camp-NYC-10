@@ -3,49 +3,35 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://americanselect.local:8888/" />
-<title>Node creation</title>
+<link rel="selenium.base" href="http://dcnyc10.drnikki.org/" />
+<title>create_user_random_username</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Node creation</td></tr>
+<tr><td rowspan="1" colspan="3">create_user_random_username</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=Add content</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=Photo</td>
+	<td>/user/register</td>
 	<td></td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=edit-title</td>
-	<td>Selenium Test Title</td>
+	<td>id=edit-name</td>
+	<td>javascript{&quot;asdf&quot; + Math.floor(Math.random() * 1337) + &quot;asdf&quot;;}</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=edit-body-und-0-value</td>
-	<td>Selenium Body Field</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-field-dog-picture-und-0-upload</td>
-	<td>/Users/nstevens/Desktop/dcnyc10/photo/6580.jpg</td>
+	<td>id=edit-mail</td>
+	<td>javascript{&quot;nikkilstevens+&quot; + Math.floor(Math.random() * 1337) + &quot;@gmail.com&quot;;}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
 	<td>id=edit-submit</td>
 	<td></td>
 </tr>
+
 </tbody></table>
 </body>
 </html>
